@@ -1,8 +1,8 @@
-all: quicksort paranthesis
+all: quicksort parentheses
 
 quicksort: quicksort.cc
 	g++ -g -std=c++11 -lm -o quicksort quicksort.cc
 
-paranthesis: paranthesis.cc
-	g++ -g -std=c++11 -lm -o paranthesis paranthesis.cc
+parentheses: parentheses.cc
+	g++ -g -std=c++11 -lm -o parentheses parentheses.cc
 
